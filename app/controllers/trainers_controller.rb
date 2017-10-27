@@ -1,6 +1,6 @@
 class TrainersController < ApplicationController
   before_action :authenticate_trainer!
-  
+
 
   def index
     @trainers = Trainer.all
